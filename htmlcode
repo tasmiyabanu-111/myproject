@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphone Frames</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero text-center text-white">
+        <div class="container">
+            <h1 style="color: black;">Premium Smartphone Frames</h1>
+            <p style="color: black;">Enhance your phone's aesthetics with our high-quality frames.</p>
+            <a href="#contact" class="btn btn-primary">Get Yours Now</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features py-5 text-center">
+        <div class="container">
+            <h2 style="color: firebrick;">Why Choose Our Frames?</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 style="color: indianred;">Durable Material</h3>
+                    <p>Made from high-quality aluminum and carbon fiber.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 style="color: indianred;">Modern Design</h3>
+                    <p>Sleek, lightweight, and stylish for any phone.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 style="color: indianred;">Affordable Pricing</h3>
+                    <p>Get premium quality at the best price.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonials py-5 text-center bg-light">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <p>"Best frame I’ve ever used! It makes my phone look stunning." - Sarah J.</p>
+                </div>
+                <div class="col-md-4">
+                    <p>"Great quality and perfect fit. Highly recommend!" - Mark T.</p>
+                </div>
+                <div class="col-md-4">
+                    <p>"Excellent craftsmanship and fast shipping!" - Emily R.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact py-5" id="contact">
+        <div class="container">
+            <h2 class="text-center">Get in Touch</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
